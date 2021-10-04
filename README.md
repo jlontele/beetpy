@@ -12,7 +12,7 @@ If the subgraph is used, it must be replaced with Beethovenx's subgraph link
 https://graph.beethovenx.io/subgraphs/name/beethovenx
 (beetx/runSamples.sh)
 
-If you are looking to deploy a pool, use beetpy/joinPoolSample.py.
+If you are looking to deploy a pool, use beetx/poolCreationSample.py.
 Usage:
 
 ```bash
