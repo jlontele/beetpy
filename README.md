@@ -17,10 +17,10 @@ Usage:
 
 ```bash
 export BALPY_CUSTOM_RPC="https://rpc.ftm.tools/"
-
+export KEY_PRIVATE=[your key]
 python3 poolCreationSample.py ./link/to/pool.json 
 ```
-export KEY_PRIVATE=[your key]
+
 # balpy
 Python tools for interacting with Balancer Protocol V2 in Python. 
 
