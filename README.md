@@ -1,4 +1,4 @@
-# Note: This is a fork of Balancer Lab's Balpy software.  This repo includes the configuration files for the BeethovenX deployments on Fantom.  
+## Note: This is a fork of Balancer Lab's Balpy software.  This repo includes the configuration files for the BeethovenX deployments on Fantom.  
 
 Balpy has the ability to import custom configuration files where you can define the contract addresses for your Balancer v2 deployment.  
 Add the following to the script using balpy while having the fantom.json (beetx/fantom.json
@@ -12,7 +12,15 @@ If the subgraph is used, it must be replaced with Beethovenx's subgraph link
 https://graph.beethovenx.io/subgraphs/name/beethovenx
 (beetx/runSamples.sh)
 
+If you are looking to deploy a pool, use beetpy/joinPoolSample.py.
+Usage:
 
+```bash
+export BALPY_CUSTOM_RPC="https://rpc.ftm.tools/"
+
+python3 joinPoolSample.py ./link/to/pool.json 
+```
+export KEY_PRIVATE=[your key]
 # balpy
 Python tools for interacting with Balancer Protocol V2 in Python. 
 

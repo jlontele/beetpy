@@ -1,0 +1,27 @@
+{
+    "network": "fantom",
+    "name": "Fantom-Boo-Tarot Weighted Pool",
+    "symbol": "BeetsFantomBooTarto",
+    "poolType": "WeightedPool",
+    "swapFeePercent": 0.25,
+    "fromInternalBalance": false,
+    "owner": "0x0000000000000000000000000000000000000000",
+    "tokens": {
+        "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE": {
+            "weight": "0.333333333333333333",
+            "initialBalance": 0.0075,
+            "allowance": -1
+        },
+        "0xC5e2B037D30a390e62180970B3aa4E91868764cD": {
+            "weight": "0.333333333333333333",
+            "initialBalance": 0.065,
+            "allowance": -1
+        },
+        "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83": {
+            "weight": "0.333333333333333334",
+            "initialBalance": 0.099,
+            "allowance": -1
+        }
+    },
+    "poolId": "a1585005433ae9a72223c6c306261b2f4b38e31c00010000000000000000000c"
+}
