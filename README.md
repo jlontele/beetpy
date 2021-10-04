@@ -10,7 +10,7 @@ Add the following to the script using balpy while having the fantom.json (beetx/
 ```
 If the subgraph is used, it must be replaced with Beethovenx's subgraph link
 https://graph.beethovenx.io/subgraphs/name/beethovenx
-(beetx/runSamples.sh)
+(beetx/getPools.py)
 
 If you are looking to deploy a pool, use beetx/poolCreationSample.py.
 Usage:
