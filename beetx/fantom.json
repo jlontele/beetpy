@@ -1,0 +1,14 @@
+{
+	"contracts":{
+		"Vault":"0x20dd72Ed959b6147912C2e529F0a0C651c33c9ce",
+		"WeightedPoolFactory":"0x60467cb225092cE0c989361934311175f437Cf53",
+		"WeightedPool2TokensFactory":"0x92b377187bcCC6556FceD2f1e6DAd65850C20630",
+		"StablePoolFactory":"0x55df810876354Fc3e249f701Dd78DeDE57991F8D",
+		"LiquidityBootstrappingPoolFactory":"0x458368B3724B5a1c1057A00b28eB03FEb5b64968",
+		"MetastablePoolFactory":"0x70b55Af71B29c5Ca7e67bD1995250364C4bE5554"
+	},
+	"networkParams":{
+		"id":250,
+		"blockExplorerUrl":"ftmscan.com"
+	}
+}
