@@ -15,9 +15,13 @@ https://graph.beethovenx.io/subgraphs/name/beethovenx
 If you are looking to deploy a pool, use beetx/poolCreationSample.py.
 Usage:
 
+First initiate the environment variables for the RPC endpoint and your private key
 ```bash
 export BALPY_CUSTOM_RPC="https://rpc.ftm.tools/"
 export KEY_PRIVATE=[your key]
+```
+Then run the poolCreationSample.py script located in the beetx folder
+```bash
 python3 poolCreationSample.py ./link/to/pool.json 
 ```
 
