@@ -18,7 +18,7 @@ Usage:
 ```bash
 export BALPY_CUSTOM_RPC="https://rpc.ftm.tools/"
 
-python3 joinPoolSample.py ./link/to/pool.json 
+python3 poolCreationSample.py ./link/to/pool.json 
 ```
 export KEY_PRIVATE=[your key]
 # balpy
