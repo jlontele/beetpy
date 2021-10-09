@@ -26,7 +26,7 @@ def main():
 
 	gasFactor = 1.05;
 	gasSpeed = "fast";
-	gasPriceGweiOverride = -1; # -1 uses etherscan price at speed for gasSpeed, all other values will override
+	gasPriceGweiOverride = 800; # -1 uses etherscan price at speed for gasSpeed, all other values will override
 
 	bal = balpy.balpy.balpy(pool["network"]);
 
