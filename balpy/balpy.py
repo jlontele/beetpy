@@ -541,7 +541,7 @@ class balpy(object):
 			token = tokens[i];
 			targetAllowance = targetAllowances[i];
 			amount = amounts[i];
-			txHash = self.erc20EnforceSufficientVaultAllowance(token, targetAllowance, amount, gasFactor, gasSpeed, nonceOverride=nonce, isAsync=True);
+			txHash = self.erc20EnforceSufficientVaultAllowance(token, targetAllowance, amount, gasFactor, gasSpeed, nonceOverride=nonce, gasPriceGweiOverride=gasPriceGweiOverride, isAsync=True);
 			if not txHash is None:
 				txHashes.append(txHash);
 				nonce += 1;
